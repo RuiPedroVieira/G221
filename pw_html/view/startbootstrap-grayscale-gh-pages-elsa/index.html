@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Paint4All</title>
+
+  <link rel="shortcut icon" type="image" href="img/ipad.png"/>
+
+
+  
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/ipad.png" width=40 height=40 >  Paint4All</a>
+     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav  text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">espaços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">quem somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contactos">contactos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger">login</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase">Paint4All</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Junta-te a nós!</h2> 
+        <button type="button" class="btn js-scroll-trigger bg-cinza text-verde" data-toggle="modal" data-target="#myModalRegistar">Regista-te</button>
+      </div>
+    </div>
+  </header> 
+
+
+  <!--Inicio Modal-->
+  <div class="modal fade" id="myModalRegistar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-green">
+          <h4 class="modal-title text-center text-verde" id="myModalLabel">Registo</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="close"> <span aria-hidden="true"> &times; </span> </button>
+        </div>
+    <!--
+        <div class="modal-body bg-cinza">
+          <form id="formNewUser" name="formNewUser" action="">
+            <div class="form-group form-inline">
+              <label for="email" class="control-label text-verde col-md-6"> Email:</label>
+              <input type="email" class="form-control col-md-6" id="email" name="email">
+            </div>
+            <div class="form-group form-inline">
+              <label for="nome" class="control-label text-verde col-md-6"> Nome:</label>
+              <input type="name" class="form-control col-md-6" id="nome" name="nome">
+            </div>
+            <div class="form-group form-inline">
+              <label for="genero" class="control-label text-verde col-md-6">Género:</label>
+              <form id="genero">
+                <input type="radio" name="genero" value="feminino">F
+                <input type="radio" name="genero" value="masculino">M
+              </form>
+            </div>
+            <div class="form-group form-inline">
+              <label for="dataNasc" class="control-label text-verde col-md-6"> Data de nascimento:</label>
+              <input type="date" class="form-control col-md-6" id="dataNasc" name="dataNasc">
+            </div>
+            <div class="form-group form-inline">
+              <label for="localidade" class="control-label text-verde col-md-6"> Localidade:</label>
+              <input type="text" class="form-control col-md-6" id="localidade" name="localidade">
+            </div>
+            <div class="form-group form-inline">
+              <label for="passe" class="control-label text-verde col-md-6"> Palavra-passe:</label>
+              <input type="password" class="form-control col-md-6" id="passe" name="passe">
+            </div>
+            <div class="form-group form-inline">
+              <label for="repPasse" class="control-label text-verde col-md-6"> Repetir a palavra-passe:</label>
+              <input type="password" class="form-control col-md-6" id="repPasse" name="repPasse">
+            </div>
+            <br>
+            <div class="form-group">
+              <input id="Registar" type="submit" class="btn btn-default text-verde bg-green"></input>
+            </div>
+          </form>
+        </div> 
+      -->
+        <div class="modal-body bg-cinza">
+          <form id="formNewUser" name="formNewUser" action="">
+            <div class="form-group form-inline">
+              <label for="email" class="control-label text-verde col-sm-3"> Email:</label>
+              <input type="email" class="form-control col-sm-8" id="email" name="email">
+            </div>
+            <div class="form-group form-inline">
+              <label for="nome" class="control-label text-verde col-sm-3"> Nome:</label>
+              <input type="name" class="form-control col-sm-8" id="nome" name="nome">
+            </div>
+            <div class="form-group form-inline">
+              <label for="genero" class="control-label text-verde col-sm-3">Género:</label>
+              <form id="genero">
+                <input type="radio" name="genero" value="feminino">F
+                <input type="radio" name="genero" value="masculino">M
+              </form>
+            </div>
+            <div class="form-group form-inline">
+              <label for="dataNasc" class="control-label text-verde col-sm-3"> Data de nascimento:</label>
+              <input type="date" class="form-control col-sm-8" id="dataNasc" name="dataNasc">
+            </div>
+            <div class="form-group form-inline">
+              <label for="localidade" class="control-label text-verde col-sm-3"> Localidade:</label>
+              <input type="text" class="form-control col-sm-8" id="localidade" name="localidade">
+            </div>
+            <div class="form-group form-inline">
+              <label for="passe" class="control-label text-verde col-sm-3"> Palavra-passe:</label>
+              <input type="password" class="form-control col-sm-8" id="passe" name="passe">
+            </div>
+            <div class="form-group form-inline">
+              <label for="repPasse" class="control-label text-verde col-sm-3"> Repetir a palavra-passe:</label>
+              <input type="password" class="form-control col-sm-8" id="repPasse" name="repPasse">
+            </div>
+            <div class="form-group">
+              <input id="Registar" type="submit" class="btn btn-default text-verde bg-green"></input>
+            </div>
+          </form>
+        </div>  
+
+      <!--
+        <div class="modal-body bg-cinza">
+          <form method="POST" action="http://lacalhost/Paint4All/processa.reg.php" enctype="multipart/form-data">
+            <div class="form group form-inline">
+              <label for="inputEmail" class="control-label text-verde col-sm-3">Email:</label>
+              <input name="email" type="email" id="email" class="form-control col-sm-8" data-rule="required|email">
+            </div>
+            <br>
+            <div class="form group form-inline">
+              <label for="inputName" class="control-label text-verde col-sm-3">Nome:</label>
+              <input name="nome" type="text" id="nome" class="form-control col-sm-8">
+            </div>
+            <br>
+            <div class="form group form-inline">
+              <label for="inputGenero" class="control-label text-verde col-sm-3">Género:</label>
+              <form>
+                <input type="radio" name="genero" value="feminino">F
+                <input type="radio" name="genero" value="masculino">M
+              </form>
+            </div>
+            <br>
+            <div class="form group form-inline">
+              <label for="inputDate" class="control-label text-verde col-sm-3">Data de nascimento:</label>
+              <input name="dataNasc" type="date" id="data_nasc" class="form-control col-sm-8">
+            </div>
+            <br>
+            <div class="form group form-inline">
+              <label for="inputLocalidade" class="control-label text-verde col-sm-3">Localidade:</label>
+              <input name="localidade" type="text" id="localidade" class="form-control col-sm-8">
+            </div>
+            <br>
+            <div class="form group form-inline">
+              <label for="inputPass" class="control-label text-verde col-sm-3">Palavra-passe:</label>
+              <input name="pass" type="password" id="pass" class="form-control col-sm-8" data-rule="required|minlength-6" autocomplete="off">
+            </div>
+            <br>
+            <div class="form group form-inline">
+              <label for="inputRepPass" class="control-label text-verde col-sm-3">Repetir a palavra-passe:</label>
+              <input name="repPass" type="password" id="rep_pass" class="form-control col-sm-8" data-rule="required|password">
+            </div>
+          </form>
+        </div>
+        <div class="registar-footer bg-green align-items-center">
+            <button type="submit" class="btn btn-sm bg-cinza text-verde">Registar</button>
+          </div>
+        -->
+      </div>
+    </div>
+  </div>
+
+ <!-- Content Row -->
+ <br>
+ <div class="row mr-2 ml-2" id="estatisticas">
+
+   <!-- Numero de participantes -->
+   <div class="col-xl-3 col-md-6 mb-4">
+    <div class="card border-left-success shadow h-100 py-2 bg-grey">
+        <div class="card-body">
+            <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                    <div class="text-xs font-weight-bold text-success text-uppercase text-primary mb-1">Número de participantes</div>
+                    <div class="h5 mb-0 font-weight-bold text-gray-800">1200</div>
+                </div>
+                <div class="col-auto">
+                    <i class="fas fa-user fa-2x text-verde"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- Numero de partidas -->
+  <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-left-success shadow h-100 py-2 bg-grey">
+          <div class="card-body">
+              <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                      <div class="text-xs font-weight-bold text-success text-uppercase text-primary mb-1">Número de <br> partidas</div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">480</div>
+                  </div>
+                  <div class="col-auto">
+                      <i class="fas fa-gamepad fa-2x text-verde"></i>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Numero de horas de jogo -->
+  <div class="col-xl-3 col-md-6 mb-4">
+    <div class="card border-left-success shadow h-100 py-2 bg-grey">
+        <div class="card-body">
+            <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                    <div class="text-xs font-weight-bold text-success text-uppercase text-primary mb-1">Número de horas <br> de jogo</div>
+                    <div class="h5 mb-0 font-weight-bold text-gray-800">3500</div>
+                </div>
+                <div class="col-auto">
+                    <i class="fas fa-clock fa-2x text-verde"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- Numero de espaços -->
+ <div class="col-xl-3 col-md-6 mb-4">
+  <div class="card border-left-success shadow h-100 py-2 bg-grey">
+      <div class="card-body">
+          <div class="row no-gutters align-items-center">
+              <div class="col mr-2">
+                  <div class="text-xs font-weight-bold text-success text-uppercase text-primary mb-1">Número de <br> espaços</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800">15</div>
+              </div>
+              <div class="col-auto">
+                  <i class="fas fa-map-marker fa-2x text-verde"></i>
+              </div>
+          </div>
+      </div>
+  </div>
+ </div>
+</div>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light">
+    <div class="container" width="100%" margin-left="10%" margin-right="10%">
+
+            <!-- Featured Project Row -->
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-8 col-lg-7">
+                  <img src="img/Montgomery Sporting Goods-paintball fields-body.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-xl-4 col-lg-5">
+                <div class="featured-text text-center text-lg-left">
+                  <h4>Descobre O Campo Perfeito Para Ti!</h4>
+                  <p class="text-black-50 mb-0">Vem viver uma nova experência! Junta o teu grupo de amigos, define a melhor estratégia e diverte-te nos nossos campos!</p>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Project One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+              <div class="col-lg-6">
+                  <img src="img/1-min.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6">
+                <div class="bg-grey text-center h-100 project">
+                  <div class="d-flex h-100">
+                    <div class="project-text w-100 my-auto text-center text-lg-left">
+                      <h4 class="text-white">ExtremePaint</h4>
+                      <h6 class="text-white">Gandorinha, Santo Tirso</h6>
+                      <img src="img/star.png" class="img-fluid" alt="">
+                      <hr class="d-none d-lg-block mb-0 ml-0">
+                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Project Two Row -->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6">
+                    <img src="img/37245597_1783190091795632_4312466624851476480_o.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-6 order-lg-first">
+                <div class="bg-grey text-center h-100 project">
+                  <div class="d-flex h-100">
+                    <div class="project-text w-100 my-auto text-center text-lg-right">
+                      <h4 class="text-white">Paintball Moreira do Castelo</h4>
+                      <h6 class="text-white">Moreira do Castelo, Braga</h6>
+                      <img src="img/4stars.png" class="img-fluid" alt="">
+                      <hr class="d-none d-lg-block mb-0 mr-0">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+             <!-- Project Three Row -->
+             <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+              <div class="col-lg-6">
+                  <img src="img/53264659_2277297885818232_1819148658239602688_n.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6">
+                <div class="bg-grey text-center h-100 project">
+                  <div class="d-flex h-100">
+                    <div class="project-text w-100 my-auto text-center text-lg-left">
+                      <h4 class="text-white">Parque Aventura Heróis D'Adrenalina</h4>
+                      <h6 class="text-white">Amarante, Porto</h6>
+                      <img src="img/stars.png" class="img-fluid" alt="">
+                      <hr class="d-none d-lg-block mb-0 ml-0">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Project Four Row -->
+            <div class="row justify-content-center no-gutters">
+              <div class="col-lg-6">
+                  <img src="img/70534539_2270584226396889_6930274703869214720_n.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 order-lg-first">
+                <div class="bg-grey text-center h-100 project">
+                  <div class="d-flex h-100">
+                    <div class="project-text w-100 my-auto text-center text-lg-right">
+                      <h4 class="text-white">Rangers Póvoa Clube</h4>
+                      <h6 class="text-white">Argivai, Póvoa de Varzim </h6>
+                      <img src="img/star.png" class="img-fluid" alt="">
+                      <hr class="d-none d-lg-block mb-0 mr-0">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <button type="button" class="btn js-scroll-trigger bg-cinza text-verde" data-toggle="modal" data-target="#myModalEspacos">Registe o seu espaço</button>
+            <button type="button" class="btn js-scroll-trigger bg-cinza text-verde" data-toggle="modal" data-target="#myModalPatrocinador">Torne-se patrocinador</button>
+          </div>
+  </section>
+  
+ <!--Janela modal para registar espaços-->
+ <div class="modal fade" id="myModalEspacos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-green">
+        <h4 class="modal-title text-center text-verde" id="myModalLabel">Registe o seu espaço</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="close"> <span aria-hidden="true"> &times; </span> </button>
+      </div>
+      
+      <div class="modal-body bg-cinza">
+        <form id="formNewSpace" name="formNewUser" action="">
+          <div class="form-group form-inline">
+            <label for="morada" class="control-label text-verde col-sm-3"> Morada:</label>
+            <input type="text" class="form-control col-sm-8" id="morada" name="morada">
+          </div>
+          <div class="form-group form-inline">
+            <label for="preco" class="control-label text-verde col-sm-3"> Preço:</label>
+            <input type="number" class="form-control col-sm-8" id="preco" name="preco">
+          </div>
+          <div class="form-group form-inline">
+            <label for="capacidade" class="control-label text-verde col-sm-3"> Capacidade máxima:</label>
+            <input type="number" class="form-control col-sm-8" id="capacidade" name="capacidade">
+          </div>
+          <div class="form-group form-inline">
+            <label for="balneario" class="control-label text-verde col-sm-3"> Possui balneário?</label>
+            <form id="balneário">
+              <input type="radio" name="balneario" value="sim">Sim
+              <input type="radio" name="balneario" value="nao">Não
+            </form>
+          </div>
+          <br>
+          <div class="form-group">
+            <input id="Registar" type="submit" class="btn btn-default text-verde bg-green"></input>
+          </div>
+        </form>
+      </div> 
+    </div>
+  </div>
+</div>
+
+<!--Janela modal para registar patrocinadores-->
+<div class="modal fade" id="myModalPatrocinador" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-green">
+        <h4 class="modal-title text-center text-verde" id="myModalLabel">Torne-se patrocinador de um espaço</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="close"> <span aria-hidden="true"> &times; </span> </button>
+      </div>
+      
+      <div class="modal-body bg-cinza">
+        <form id="formNewSpace" name="formNewPatrocinador" action="">
+          <div class="form-group form-inline">
+            <label for="nomePatroc" class="control-label text-verde col-sm-3"> Nome do patrocínio:</label>
+            <input type="name" class="form-control col-sm-8" id="nomePatroc" name="nomePatroc">
+          </div>
+          <div class="form-group form-inline">
+            <label for="email" class="control-label text-verde col-sm-3"> Email:</label>
+            <input type="email" class="form-control col-sm-8" id="email" name="email">
+          </div>
+          <div class="form-group form-inline">
+            <label for="telefone" class="control-label text-verde col-sm-3"> Telefone:</label>
+            <input type="number" class="form-control col-sm-8" id="telefone" name="telefone">
+          </div>
+          <div class="form-group form-inline">
+            <label for="nif" class="control-label text-verde col-sm-3"> NIF:</label>
+            <input type="number" class="form-control col-sm-8" id="nif" name="nif">
+          </div>
+          <br>
+          <div class="form-group">
+            <input id="Registar" type="submit" class="btn btn-default text-verde bg-green"></input>
+          </div>
+        </form>
+      </div> 
+    </div>
+  </div>
+</div>
+
+<!--Quem somos-->
+<section id="about" class="info-section bg-light" padding: 5rem 0;>
+  <div class="container" width="100%" margin-left="10%" margin-right="10%">
+          <!-- Featured Project Row -->
+          <div class="row justify-content-center no-gutters">
+            <div class="" width="50%">
+                <img src="img/ipad.png" class="img-fluid" width=70% height=70% alt="">
+            </div>
+            <div class="col-xl-4 col-lg-5" width="50%">
+              <div class="featured-text text-center text-lg-left">
+                <h4>Quem somos</h4>
+                <p class="text-black-50 mb-0">A Paint4All pretende elevar o paintball a outro nível fornecendo aos utilizadores uma grande diversidade de espaços onde estes poderão realizar os seus jogos. Organizamos atividades que serão destinadas exclusivamente aos nossos utilizadores e damos a possibilidade dos participantes poderem escolher entre jogos públicos ou privados de modo a que estes possam jogar com pessoas desconhecidas e estimular assim o convívio.</p>
+            </div>
+            </div>
+          </div>
+    </div>
+  </section>
+  
+    <!-- Contact Section -->
+  <section id="contactos" class="contact-section bg-green">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0 text-primary">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a>paint4all@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0 text-primary">Telefone</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a>253300653</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0 text-primary">Morada da sede</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">Univeridade do Minho <p>Campus de Azurém</p> <p>Guimarães</p></div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+
+    <div class="social d-flex justify-content-center">
+      <a href="#" class="mx-2">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#" class="mx-2">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" class="mx-2">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    </div>
+
+  <!-- Footer -->
+  <footer class="bg-green small text-center text-primary">
+    <div class="container">
+      Copyright &copy; Paint4All
+    </div>
+  </footer>
+</section>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!--Custom scripts for this template --> 
+  <script src="js/grayscale.min.js"></script>
+
+
+
+  
+
+</body>
+
+</html>

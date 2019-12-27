@@ -1,0 +1,280 @@
+.c-tfinanças{
+    color:#36602c !important;
+    font-size: 30px !important;
+    
+}
+.c-ttitulo {
+    
+    font-size: 50px;
+
+} 
+ 
+.c-tcatalogo{
+    color: #36602c !important;
+}
+
+.cor {
+    color: #36602c !important;
+}
+.c-grafico{
+    float: right !important;
+}
+
+.c-tganhosm{
+    color:#36602c !important
+}
+.c-tganhosa{
+    color:#36602c !important
+}
+
+.c-te-a{
+    color:#000000 !important; font-size: 18px !important
+}
+.c-ta-e{
+    color:#000000 !important; font-size: 18px !important
+}
+.c-tpatrocinadores{
+    color: #000000; font-size: 18px !important
+    
+}
+.c-tpatrocinadoresn{
+    font-weight: bold !important
+} 
+
+.c-a-e-npago{
+    color:#917854 !important
+}
+.c-a-e-atraso{
+    color:#f2f4f3 !important
+}
+.c-a-e-pago{
+    color:#d4c685 !important
+}
+
+.c-e-a-atraso{
+    color:#c6d8af !important
+}
+.c-e-a-pago{
+    color:#36602c !important
+}
+.c-e-a-npago{
+    color:#f2f4f3 !important
+}
+
+.c-ppatrocinadores {
+    color: #68a357 !important
+
+}
+
+.c-apatrocinadores{
+    color: #f2f4f3 !important
+
+}
+.c-npatrocinadores{
+    color: #f0f66e !important
+
+}
+
+.c-barranotf {
+    background-color: #c6d8af !important;
+    border:1px solid #c6d8af !important;padding-top:.75rem !important;padding-bottom:.75rem !important;color:#36602c !important;
+    text-align: center !important; 
+}
+
+.bgespaços {
+    background-color: #68a357 !important;
+    border-color: #68a357 !important;
+} 
+.bglista{
+    background-color: #36602c !important;
+    border-color: #36602c !important;
+}
+.baceitare{
+    background-color: #c6d8af !important;
+    border-color: #c6d8af !important;
+
+}
+
+.bgp{
+    background-color: #68a357 !important;
+    border-color: #68a357 !important;
+
+}
+.blp{
+    background-color: #36602c !important;
+    border-color: #36602c !important;
+
+}
+
+/* Daniela */
+.D-titulotabela {
+    text-align: center !important;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold !important;
+
+}
+th{
+    text-align: center !important;
+}
+
+.dg-cor {
+    color: #c6d8af !important;
+}
+.page-item.active .page-link {
+    z-index: 1 !important;
+    color: #fff !important;
+    background-color: #c6d8af !important ;
+    border-color: #c6d8af !important;
+  }
+  
+.imagemborda {
+    border-radius: 50% !important;
+}
+.btn-green3 {
+    color: #fff !important;
+    background-color: #c6d8af !important;
+    border-color: #c6d8af !important;
+  }
+  .btn-green4 {
+    color: #fff !important;
+    background-color: #68a357 !important;
+    border-color: #68a357 !important;
+  }
+
+  .btn-green5 {
+    color: #fff !important;
+    background-color: #36602c !important;
+    border-color: #36602c !important;
+  }
+  .carousel-item {
+    height: 35vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover ;
+   }
+  
+   .ddd { 
+       visibility: collapse;
+   }
+  
+   .carouse-item {
+      height: 35vh;
+      min-height: 300px;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover ;
+   }
+
+
+
+.R-estatisticas{
+    color: #36602c !important;
+    
+    }
+
+.R-media-p-mes{
+    color: #36602c !important;
+    }
+.R-valor-media-mes{
+    color: #5a5c69 !important;
+}
+.R-media-p-ano{
+    color: #36602c !important;
+    }
+.R-valor-media-ano{
+    color: #5a5c69 !important;
+}
+.R-jogos-realizados{
+    color: #36602c !important;
+    }
+.R-valor-jogos-realizados{
+    color: #5a5c69 !important;
+}        
+.R-barra-jogos{
+    background-color: #36602c !important;
+}
+.R-num-p-mes{
+    color: #36602c !important;
+}
+.R-procura-epoca{
+    color: #36602c !important;
+}
+.R-espacos-mais{
+    color: #36602c !important;
+}
+.R-barra1-espaco{
+    background-color: #1cc88a !important;
+}
+.R-barra2-espaco{
+    background-color: #1cc88a !important;
+}
+.R-barra3-espaco{
+    background-color: #1cc88a !important;
+}
+.R-barra4-espaco{
+    background-color: #1cc88a !important;
+}
+.R-barra5-espaco{
+    background-color: #1cc88a !important;
+}
+.R-idades-part{
+    color: #36602c !important;
+}
+.R-zona-part{
+    color: #36602c !important;
+}
+.R-borda-mensal{
+    border-left: .25rem solid !important;
+    color: #36602c !important;
+}
+.R-borda-anual{
+    border-left: .25rem solid !important;
+    color: #36602c !important;
+}
+.R-borda-jogos{
+    border-left: .25rem solid !important;
+    color: #36602c !important;
+}
+.R-borda-quad{
+    border-left: .25rem solid !important;
+    color: #36602c !important;
+}
+.R-valor-quad{
+    color: #36602c !important;
+}
+.text-info{
+    color: #f0f66e !important;
+}
+
+.text-primary1{
+    color: #d4c685 !important;
+}
+
+.text-outono{
+    color: #d4c685 !important;
+}
+
+.text-primary{
+    color: #9eb25d !important;
+}
+
+.R-titulotabela {
+    text-align: center !important;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold !important;
+
+}
+
+.R-btn-green7 {
+    color: #fff !important;
+    background-color: #68a357 !important;
+    border-color: #68a357 !important;
+    
+}
